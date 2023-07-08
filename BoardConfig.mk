@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+DEVICE_PATH := device/$(PRODUCT_BRAND)/$(PRODUCT_DEVICE)
+
 # Building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
